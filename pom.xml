@@ -6,7 +6,7 @@
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	
-	<version>0.0.2-SNAPSHOT</version> 
+	<version>0.0.2</version> 
 	
 	<name>maven-web-application</name>
 
@@ -94,20 +94,20 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.4.141:8181/mylandmarktech/repository/tesla-web-releases/</url>
+	      <name>jaguar-releases</name>
+	      <url>http://3.236.167.108:8081/repository/jaguar-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.4.141:8181/mylandmarktech/repository/tesla-webapp-snapshots/</url>
+	      <name>jaguar-snapshot</name>
+	      <url>http://3.236.167.108:8081/repository/jaguar-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla</finalName>
+		<finalName>jaguar</finalName>
 		
 		<plugins>
 			<plugin>
